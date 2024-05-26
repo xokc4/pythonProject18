@@ -24,7 +24,7 @@ def find_roots(a, b, c):
         root1 = (-b + discriminant ** 0.5) / (2 * a)
         root2 = (-b - discriminant ** 0.5) / (2 * a)
         return root1, root2
-
+#Третье изменение
 
 def save_to_json(func):
     def wrapper(file_name):
