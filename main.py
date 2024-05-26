@@ -13,7 +13,7 @@ def generate_csv_file(file_name, rows):
             row = [random.randint(1, 1000) for _ in range(3)]
             writer.writerow(row)
 
-
+#Второе изменение
 def find_roots(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     if discriminant < 0:
