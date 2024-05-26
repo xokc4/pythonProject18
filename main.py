@@ -4,7 +4,7 @@ warnings.filterwarnings('ignore')
 import csv
 import json
 import random
-#Первое изменение
+#Первое
 
 def generate_csv_file(file_name, rows):
     with open(file_name, 'w', newline='') as csvfile:
