@@ -40,7 +40,7 @@ def save_to_json(func):
             json.dump(data, f, indent=4)
 
     return wrapper
-#Первое
+
 
 
 @save_to_json
