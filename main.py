@@ -5,7 +5,7 @@ import csv
 import json
 import random
 #Первое
-#ласт изменения
+#ласт изменения last
 def generate_csv_file(file_name, rows):
     with open(file_name, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
